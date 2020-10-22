@@ -19,13 +19,13 @@ import busquedaUsuario from "../Pages/busquedaUsuario";
 import notificacionesAdmin from "../Pages/notificacionesAdmin";
 import reportesEstudiante from "../Pages/reportesEstudiante";
 import vistaAlerta from "../Pages/vistaAlerta";
-import vistaAlerta2 from "../Pages/vistaAlerta";
+import vistaAlerta2 from "../Pages/vistaAlerta2";
 import informacionEstudiante2 from "../Pages/informacionEstudiante2";
 const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/principal" component={principal} />
+        <Route exact path="/" component={principal} />
         <Route exact path="/registro" component={registro} />
         <Route exact path="/correo" component={correo} />
         <Route exact path="/codigo" component={codigo} />
