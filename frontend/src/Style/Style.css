@@ -76,6 +76,7 @@ p {
   margin: 15px;
   border-radius: 20px;
   background-color: #00a6ff;
+  text-decoration: none;
 }
 
 #button {
@@ -139,4 +140,13 @@ padding: 0px;
 .aaa{
 margin-top: 80px;
 height: 50px
+}
+
+.letra:link{
+  text-decoration: none;
+  color: black;
+}
+
+.letra:hover{
+  color: black;
 }

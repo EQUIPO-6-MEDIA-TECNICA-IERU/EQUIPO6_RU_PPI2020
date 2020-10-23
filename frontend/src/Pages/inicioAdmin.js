@@ -35,13 +35,13 @@ class InicioAdmin extends React.Component {
               <br/>
 
               <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-success btne">
+                <button type="button" class="btn btn-primary btne">
                 <a href="notificacionesAdmin" class="letra">
               {" "}
               Aceptar{" "}
             </a>
                 </button>
-                <button type="button" class="btn btn-danger btne">
+                <button type="button" class="btn btn-primary btne">
                 <a href="inicioUsuario" class="letra">
               {" "}
               Cancelar{" "}

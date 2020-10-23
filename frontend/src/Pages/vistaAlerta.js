@@ -191,7 +191,7 @@ class vistarReporte extends React.Component {
           </button>
           <button
           onClick={this._Guardar1}
-           type="button" class="btn btn-success btne">
+           type="button" class="btn btn-primary btne">
           <a href="inicioDocente" class="letra">
                       {" "}
                       Guardar{" "}
@@ -199,7 +199,7 @@ class vistarReporte extends React.Component {
           </button>
           <button 
           onClick={this._Desactivar1}
-          type="button" class="btn btn-danger btne">
+          type="button" class="btn btn-primary btne">
           Desactivar
           </button>
         </div>

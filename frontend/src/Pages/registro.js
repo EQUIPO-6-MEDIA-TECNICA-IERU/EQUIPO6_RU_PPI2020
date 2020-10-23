@@ -97,7 +97,7 @@ class registro extends React.Component {
                     type="button"
                     class="botonregistro btn-primary font-weight-bold"
                   >
-                    <a href="principal" class="letra">
+                    <a href="/" class="letra">
                       {" "}
                       Enviar{" "}
                     </a>

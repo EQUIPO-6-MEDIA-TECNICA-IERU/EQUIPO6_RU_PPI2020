@@ -268,7 +268,7 @@ class InformacionEstudiante extends React.Component {
           </button>
           <button
           onClick={this._Guardar}
-           type="button" class="btn btn-success btne">
+           type="button" class="btn btn-primary btne">
           <a href="inicioEstudiante" class="letra">
                       {" "}
                       Guardar{" "}
@@ -276,7 +276,7 @@ class InformacionEstudiante extends React.Component {
           </button>
           <button 
           onClick={this._Desactivar}
-          type="button" class="btn btn-danger btne">
+          type="button" class="btn btn-primary btne">
           Desactivar
           </button>
         </div>

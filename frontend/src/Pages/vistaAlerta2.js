@@ -192,7 +192,7 @@ class vistarAlerta2 extends React.Component {
           </button>
           <button
           onClick={this._Guardar11}
-           type="button" class="btn btn-success btne">
+           type="button" class="btn btn-primary btne">
           <a href="inicioEntidad" class="letra">
                       {" "}
                       Guardar{" "}
@@ -200,7 +200,7 @@ class vistarAlerta2 extends React.Component {
           </button>
           <button 
           onClick={this._Desactivar11}
-          type="button" class="btn btn-danger btne">
+          type="button" class="btn btn-primary btne">
           Desactivar
           </button>
         </div>

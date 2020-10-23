@@ -19,7 +19,7 @@ class InformacionUsuario extends React.Component {
         <h5 class="text-center text-secondary">*Estudiante*</h5>
 
         <div class="d-flex justify-content-center">
-          <button type="button" class="btn btn-success btna">
+          <button type="button" class="btn btn-primary btna">
           <a href="informacionEstudiante" class="letra">
                       {" "}
                       Ver información{" "}

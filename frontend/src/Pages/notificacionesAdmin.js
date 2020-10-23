@@ -67,7 +67,7 @@ class NotificacionesAdmin extends React.Component {
                   <button
                     onClick={this._Aceptar}
                     type="button"
-                    class="btn btn-success btne"
+                    class="btn btn-primary btne"
                   >
                     Aceptar
                   </button>
