@@ -74,6 +74,16 @@ class GeneracionReporte extends React.Component {
               Crear{" "}
             </a>
           </button>
+
+          <button
+            type="button"
+            class="btn btn-primary btne"
+          >
+            <a href="inicioDocente" class="letra">
+              {" "}
+              cancelar{" "}
+            </a>
+          </button>
         </div>
       </div>
     );

@@ -107,7 +107,7 @@ class InformacionEntidad extends React.Component {
             Editar
           </button>
           <button type="button" class="btn btn-primary btne">
-            Guardar
+            <a class="letra" href="/inicioEntidad">Guardar</a>
           </button>
           <button type="button" class="btn btn-primary btne">
             Desactivar

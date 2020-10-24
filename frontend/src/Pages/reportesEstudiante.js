@@ -33,7 +33,7 @@ class InicioUsuarios extends React.Component {
                       alt="icon"
                       class="img-thumbnail imgc"
                     />
-                    <a class="letra" href="/vistaAlerta">Se ha finalizado el reporte s2e3</a>
+                    <a class="letra text-center" href="/vistaAlerta3">Se ha finalizado el reporte s2e3</a>
                   </div>
                 </div>
               </div>
@@ -47,7 +47,7 @@ class InicioUsuarios extends React.Component {
                     alt="icon"
                     class="img-thumbnail imgc"
                   />
-                  <a class="letra" href="/vistaAlerta"> La docente Laura ha actualizado 
+                  <a class="letra text-center" href="/vistaAlerta3"> La docente Laura ha actualizado 
                     <br/> tu reporte</a>
                 </div>
               </div>
@@ -61,7 +61,7 @@ class InicioUsuarios extends React.Component {
                     alt="icon"
                     class="img-thumbnail imgc"
                   />
-                  <a class="letra" href="/vistaAlerta">Tu proceso esta activo en este mo-
+                  <a class="letra text-center" href="/vistaAlerta3">Tu proceso está activo en este mo-
                     <br/>mento
                      </a>
                 </div>

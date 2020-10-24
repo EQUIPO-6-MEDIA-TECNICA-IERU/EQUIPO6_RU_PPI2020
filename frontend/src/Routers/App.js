@@ -21,6 +21,13 @@ import reportesEstudiante from "../Pages/reportesEstudiante";
 import vistaAlerta from "../Pages/vistaAlerta";
 import vistaAlerta2 from "../Pages/vistaAlerta2";
 import informacionEstudiante2 from "../Pages/informacionEstudiante2";
+import notificacionesDocente from "../Pages/notificacionesDocente";
+import vistaAlerta3 from "../Pages/vistaAlerta3";
+import vistaInformacionUsuario from "../Pages/vistaInformacionUsuario";
+import notificacionesEntidad from "../Pages/notificacionesEntidad";
+import vistaInformacionUsuario2 from "../Pages/vistaInformacionUsuario2";
+import informacionUsuario2 from "../Pages/informacionUsuario2";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -46,6 +53,12 @@ const App = () => {
         <Route exact path="/vistaAlerta" component={vistaAlerta}/> 
         <Route exact path="/vistaAlerta2" component={vistaAlerta2}/>
         <Route exact path="/informacionEstudiante2" component={informacionEstudiante2}/>
+        <Route exact path="/notificacionesDocente" component={notificacionesDocente}/>
+        <Route exact path="/vistaAlerta3" component={vistaAlerta3}/>
+        <Route exact path="/vistaInformacionUsuario" component={vistaInformacionUsuario}/>
+        <Route exact path="/notificacionesEntidad" component={notificacionesEntidad}/>
+        <Route exact path="/vistaInformacionUsuario2" component={vistaInformacionUsuario2}/>
+        <Route exact path="/informacionUsuario2" component={informacionUsuario2}/>
       </Switch>
     </BrowserRouter>
   );

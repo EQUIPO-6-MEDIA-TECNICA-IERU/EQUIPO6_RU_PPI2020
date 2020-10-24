@@ -40,7 +40,7 @@ class InicioEntidad extends React.Component {
                     </a>
                 </button>
                 <button type="button" class="btn btn-primary btna">
-                <a href="vistaAlerta2" class="letra">
+                <a href="/notificacionesEntidad" class="letra">
                       {" "}
                       Ver nuevas alertas{" "}
                     </a>

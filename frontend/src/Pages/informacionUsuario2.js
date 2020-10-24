@@ -3,11 +3,11 @@ import "../Style/Style.css";
 import Fondo from "../Images/gris.PNG"
 import Usuario from "../Images/usuario.png"
 
-class InformacionUsuario extends React.Component {
-  render() {
-    return (
-      <div>
-        <div>
+class informacionUsuario2 extends React.Component {
+    render(){
+        return(
+            <div>
+                <div>
           <img src={Fondo} class="d-block w-100 fondo" alt="..." />
           <img src={Usuario} class="rounded mx-auto d-block aa" alt="..." />
         </div>
@@ -20,15 +20,15 @@ class InformacionUsuario extends React.Component {
 
         <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-primary btna">
-          <a href="vistaInformacionUsuario" class="letra">
+          <a href="vistaInformacionUsuario2" class="letra">
                       {" "}
                       Ver información{" "}
                     </a>
           </button>
         </div>
-      </div>
-    );
-  }
+            </div>
+        );
+    }
 }
 
-export default InformacionUsuario;
+export default informacionUsuario2;
