@@ -3,6 +3,7 @@ import "../Style/Style.css";
 import Swal from "sweetalert2";
 import Swal2 from "sweetalert2";
 import Swal3 from "sweetalert2";
+import icono_atras from "../Images/espalda.png";
 
 
 class InformacionEstudiante extends React.Component {
@@ -22,8 +23,17 @@ class InformacionEstudiante extends React.Component {
         <header class="bg-primary" id="miinformacion">
           <div class="bg-primary miinformacion text-white">
             <h2 class="text-center">Mi información</h2>
+
           </div>
+          <a href="..." class="navbar-brand ">
+            <img
+              src={icono_atras}
+              alt="icono_atras"
+              class="img-thumbnail iconoAtras ss bg-primary "
+            />
+          </a>
         </header>
+
 
         <br />
         <br />

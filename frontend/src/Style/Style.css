@@ -97,6 +97,7 @@ border: none;
 margin: 5px
 }
 
+
 .img_usuario{
 width: 30%;
 border: none;
@@ -149,4 +150,12 @@ height: 50px
 
 .letra:hover{
   color: black;
+}
+
+.ss{
+  margin-top: -85px;
+}
+
+#miinformacion{
+  height: 50px;
 }

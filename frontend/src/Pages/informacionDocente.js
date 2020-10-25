@@ -3,6 +3,7 @@ import "../Style/Style.css";
 import Swal from "sweetalert2";
 import Swal2 from "sweetalert2";
 import Swal3 from "sweetalert2";
+import icono_atras from "../Images/espalda.png";
 
 class InformacionDocente extends React.Component {
   _Editar() {
@@ -20,7 +21,15 @@ class InformacionDocente extends React.Component {
         <header class="bg-primary" id="miinformacion">
           <div class="bg-primary miinformacion text-white">
             <h2 class="text-center">Mi información</h2>
+
           </div>
+          <a href="..." class="navbar-brand ">
+            <img
+              src={icono_atras}
+              alt="icono_atras"
+              class="img-thumbnail iconoAtras ss bg-primary "
+            />
+          </a>
         </header>
 
         <br />
@@ -247,23 +256,23 @@ class InformacionDocente extends React.Component {
         </div>
 
         <div class="d-flex justify-content-center">
-        <button
-          onClick={this._Editar}
-           type="button" class="btn btn-primary btne">
+          <button
+            onClick={this._Editar}
+            type="button" class="btn btn-primary btne">
             Editar
           </button>
           <button
-          onClick={this._Guardar}
-           type="button" class="btn btn-primary btne">
-          <a href="inicioDocente" class="letra">
-                      {" "}
+            onClick={this._Guardar}
+            type="button" class="btn btn-primary btne">
+            <a href="inicioDocente" class="letra">
+              {" "}
                       Guardar{" "}
-                    </a>
+            </a>
           </button>
-          <button 
-          onClick={this._Desactivar}
-          type="button" class="btn btn-primary btne">
-          Desactivar
+          <button
+            onClick={this._Desactivar}
+            type="button" class="btn btn-primary btne">
+            Desactivar
           </button>
         </div>
       </div>

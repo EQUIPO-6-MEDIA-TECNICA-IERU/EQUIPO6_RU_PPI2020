@@ -1,11 +1,20 @@
 import React from "react";
 import "../Style/Style.css";
 import img_entidad from "../Images/entidad.PNG";
+import icono_atras from "../Images/espalda.png";
 
 class InicioEntidad extends React.Component {
   render() {
     return (
       <div>
+        <a href="..." class="navbar-brand ">
+              <img
+                src={icono_atras}
+                alt="icono_atras"
+                class="img-thumbnail iconoAtras"
+              />
+            </a>
+            
         <div class="container">
           <div class="row">
             <div class="col-sm"></div>

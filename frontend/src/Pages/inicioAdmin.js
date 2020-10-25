@@ -1,11 +1,20 @@
 import React from "react";
 import "../Style/Style.css";
 import img_clave from "../Images/clave_img.PNG";
+import icono_atras from "../Images/espalda.png";
 
 class InicioAdmin extends React.Component {
   render() {
     return (
       <div>
+        <a href="..." class="navbar-brand ">
+              <img
+                src={icono_atras}
+                alt="icono_atras"
+                class="img-thumbnail iconoAtras"
+              />
+            </a>
+
         <div class="container text-center">
           <div class="row">
             <div class="col-sm"></div>

@@ -3,6 +3,7 @@ import "../Style/Style.css";
 import Swal11 from "sweetalert2";
 import Swal222 from "sweetalert2";
 import Swal333 from "sweetalert2";
+import icono_atras from "../Images/espalda.png";
 
 class vistarAlerta2 extends React.Component {
   _Editar11() {
@@ -17,10 +18,18 @@ class vistarAlerta2 extends React.Component {
   render() {
     return (
       <div>
-        <header class="bg-primary" id="miinformacion">
+         <header class="bg-primary" id="miinformacion">
           <div class="bg-primary miinformacion text-white">
-            <h2 class="text-center">Vista de alerta</h2>
+            <h2 class="text-center">Vista alertas</h2>
+            
           </div>
+          <a href="..." class="navbar-brand ">
+              <img
+                src={icono_atras}
+                alt="icono_atras"
+                class="img-thumbnail iconoAtras ss bg-primary "
+              />
+            </a>
         </header>
 
         <br/>

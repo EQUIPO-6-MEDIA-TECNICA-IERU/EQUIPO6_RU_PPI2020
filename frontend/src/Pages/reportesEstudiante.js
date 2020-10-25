@@ -1,17 +1,26 @@
 import React from "react";
 import "../Style/Style.css";
 import Camapana_img from "../Images/campana.png";
+import icono_atras from "../Images/espalda.png";
 
 class InicioUsuarios extends React.Component {
   render() {
     return (
       <div>
         <div>
-          <header class="bg-primary text-white text-center">
-            <div id="tNotificacion">
-              <h1>Notificaciones</h1>
-            </div>
-          </header>
+        <header class="bg-primary" id="miinformacion">
+          <div class="bg-primary miinformacion text-white">
+            <h2 class="text-center">Notificaciones</h2>
+            
+          </div>
+          <a href="..." class="navbar-brand ">
+              <img
+                src={icono_atras}
+                alt="icono_atras"
+                class="img-thumbnail iconoAtras ss bg-primary "
+              />
+            </a>
+        </header>
 
           <br />
 

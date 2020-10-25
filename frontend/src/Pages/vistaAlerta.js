@@ -2,6 +2,7 @@ import React from "react";
 import Swal1 from "sweetalert2";
 import Swal22 from "sweetalert2";
 import Swal33 from "sweetalert2";
+import icono_atras from "../Images/espalda.png";
 
 class vistarReporte extends React.Component {
   _Editar1() {
@@ -16,10 +17,18 @@ class vistarReporte extends React.Component {
   render() {
     return (
       <div>
-        <header class="bg-primary" id="miinformacion">
+         <header class="bg-primary" id="miinformacion">
           <div class="bg-primary miinformacion text-white">
-            <h2 class="text-center">Vista de alerta</h2>
+            <h2 class="text-center">Vista alertas</h2>
+            
           </div>
+          <a href="..." class="navbar-brand ">
+              <img
+                src={icono_atras}
+                alt="icono_atras"
+                class="img-thumbnail iconoAtras ss bg-primary "
+              />
+            </a>
         </header>
 
         <br/>

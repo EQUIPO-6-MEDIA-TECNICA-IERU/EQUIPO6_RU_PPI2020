@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style/Style.css";
+import icono_atras from "../Images/espalda.png";
 
 class informacionEstudiante2 extends React.Component {
   
@@ -8,8 +9,16 @@ class informacionEstudiante2 extends React.Component {
       <div>
         <header class="bg-primary" id="miinformacion">
           <div class="bg-primary miinformacion text-white">
-            <h2 class="text-center">Información *Nombre Usuario*</h2>
+            <h2 class="text-center">Información "Nombre de usuario"</h2>
+
           </div>
+          <a href="..." class="navbar-brand ">
+            <img
+              src={icono_atras}
+              alt="icono_atras"
+              class="img-thumbnail iconoAtras ss bg-primary "
+            />
+          </a>
         </header>
 
         <br />

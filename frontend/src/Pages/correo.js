@@ -1,11 +1,20 @@
 import React from "react";
 import "../Style/Style.css";
 import logo from "../Images/Logo.jpeg";
+import icono_atras from "../Images/espalda.png";
 
 class correo extends React.Component {
   render() {
     return (
       <div>
+        <a href="..." class="navbar-brand ">
+              <img
+                src={icono_atras}
+                alt="icono_atras"
+                class="img-thumbnail iconoAtras"
+              />
+            </a>
+
         <div class="d-flex justify-content-center">
         <img
                   src={logo}

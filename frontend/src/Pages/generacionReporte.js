@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style/Style.css";
 import Swal from "sweetalert2";
+import icono_atras from "../Images/espalda.png";
 
 class GeneracionReporte extends React.Component {
   _Crear() {
@@ -11,8 +12,16 @@ class GeneracionReporte extends React.Component {
       <div>
         <header class="bg-primary" id="miinformacion">
           <div class="bg-primary miinformacion text-white">
-            <h2 class="text-center">¡Crea una nueva alerta!</h2>
+            <h2 class="text-center">Generación reporte</h2>
+            
           </div>
+          <a href="..." class="navbar-brand ">
+              <img
+                src={icono_atras}
+                alt="icono_atras"
+                class="img-thumbnail iconoAtras ss bg-primary "
+              />
+            </a>
         </header>
 
         <br />

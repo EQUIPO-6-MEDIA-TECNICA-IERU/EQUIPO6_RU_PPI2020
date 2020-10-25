@@ -3,6 +3,7 @@ import logo from "../Images/Logo.jpeg";
 import "../Style/Style.css";
 import Swal from "sweetalert2";
 import Swal2 from "sweetalert2";
+import icono_atras from "../Images/espalda.png";
 
 class registro extends React.Component {
   _Editar() {
@@ -20,7 +21,15 @@ class registro extends React.Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-sm-4 col-md-4 col-lg-4"></div>
+          <div className="col-sm-4 col-md-4 col-lg-4">
+          <a href="..." class="navbar-brand ">
+              <img
+                src={icono_atras}
+                alt="icono_atras"
+                class="img-thumbnail iconoAtras "
+              />
+            </a>
+          </div>
           <div className="col-sm-4 col-md-4 col-lg-4">
             <div className="row">
               <div className="col">
