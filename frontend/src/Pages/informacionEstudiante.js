@@ -25,7 +25,7 @@ class InformacionEstudiante extends React.Component {
             <h2 class="text-center">Mi información</h2>
 
           </div>
-          <a href="..." class="navbar-brand ">
+          <a href="/inicioEstudiante" class="navbar-brand ">
             <img
               src={icono_atras}
               alt="icono_atras"
@@ -274,20 +274,7 @@ class InformacionEstudiante extends React.Component {
           <button
           onClick={this._Editar}
            type="button" class="btn btn-primary btne">
-            Editar
-          </button>
-          <button
-          onClick={this._Guardar}
-           type="button" class="btn btn-primary btne">
-          <a href="inicioEstudiante" class="letra">
-                      {" "}
-                      Guardar{" "}
-                    </a>
-          </button>
-          <button 
-          onClick={this._Desactivar}
-          type="button" class="btn btn-primary btne">
-          Desactivar
+            <a class="letra" href="/inicioEstudiante">Volver</a>
           </button>
         </div>
       </div>

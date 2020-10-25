@@ -27,6 +27,7 @@ import vistaInformacionUsuario from "../Pages/vistaInformacionUsuario";
 import notificacionesEntidad from "../Pages/notificacionesEntidad";
 import vistaInformacionUsuario2 from "../Pages/vistaInformacionUsuario2";
 import informacionUsuario2 from "../Pages/informacionUsuario2";
+import busquedaUsuario2 from "../Pages/busquedaUsuario2";
 
 const App = () => {
   return (
@@ -59,6 +60,7 @@ const App = () => {
         <Route exact path="/notificacionesEntidad" component={notificacionesEntidad}/>
         <Route exact path="/vistaInformacionUsuario2" component={vistaInformacionUsuario2}/>
         <Route exact path="/informacionUsuario2" component={informacionUsuario2}/>
+        <Route exact path="/busquedaUsuario2" component={busquedaUsuario2}/>
       </Switch>
     </BrowserRouter>
   );

@@ -22,7 +22,7 @@ class registro extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-4 col-md-4 col-lg-4">
-          <a href="..." class="navbar-brand ">
+          <a href="/" class="navbar-brand ">
               <img
                 src={icono_atras}
                 alt="icono_atras"

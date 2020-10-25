@@ -7,7 +7,7 @@ class InicioUsuarios extends React.Component {
   render() {
     return (
       <div>
-        <a href="..." class="navbar-brand ">
+        <a href="/" class="navbar-brand ">
               <img
                 src={icono_atras}
                 alt="icono_atras"

@@ -23,7 +23,7 @@ class vistarAlerta2 extends React.Component {
             <h2 class="text-center">Vista alertas</h2>
             
           </div>
-          <a href="..." class="navbar-brand ">
+          <a href="/notificacionesEntidad" class="navbar-brand ">
               <img
                 src={icono_atras}
                 alt="icono_atras"

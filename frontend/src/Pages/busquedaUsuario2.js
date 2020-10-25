@@ -3,13 +3,13 @@ import "../Style/Style.css";
 import icono_atras from "../Images/espalda.png";
 import usuario_img from "../Images/avatar.png";
 
-class BusquedaUsuario extends React.Component {
+class BusquedaUsuario2 extends React.Component {
   render() {
     return (
       <div>
         <header>
           <nav class="navbar navbar-dark bg-primary nav">
-            <a href="/inicioDocente" class="navbar-brand ">
+            <a href="/inicioEntidad" class="navbar-brand ">
               <img
                 src={icono_atras}
                 alt="icono_atras"
@@ -27,7 +27,7 @@ class BusquedaUsuario extends React.Component {
                 class="btn btn-outline-primary my-2 my-sm-0 busquedaUsuario btna"
                 type="submit"
                 >
-                  <a href="informacionUsuario" class="letra">
+                  <a href="informacionUsuario2" class="letra">
                 {" "}
                 Enviar{" "}
               </a>
@@ -62,4 +62,4 @@ class BusquedaUsuario extends React.Component {
   }
 }
 
-export default BusquedaUsuario;
+export default BusquedaUsuario2;

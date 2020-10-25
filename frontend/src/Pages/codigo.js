@@ -7,7 +7,7 @@ class codigo extends React.Component {
   render() {
     return (
       <div>
-        <a href="..." class="navbar-brand ">
+        <a href="/correo" class="navbar-brand ">
               <img
                 src={icono_atras}
                 alt="icono_atras"
@@ -45,7 +45,7 @@ class codigo extends React.Component {
                     type="button"
                     class="btn btn-primary text-center font-weight-bold boton"
                   >
-                    <a href="correo" class="letra">
+                    <a href="/contraseña" class="letra">
                       {" "}
                       Cancelar{" "}
                     </a>

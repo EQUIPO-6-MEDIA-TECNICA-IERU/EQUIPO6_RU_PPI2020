@@ -11,7 +11,7 @@ class InformacionEntidad extends React.Component {
             <h2 class="text-center">Mi información</h2>
 
           </div>
-          <a href="..." class="navbar-brand ">
+          <a href="/inicioEntidad" class="navbar-brand ">
             <img
               src={icono_atras}
               alt="icono_atras"

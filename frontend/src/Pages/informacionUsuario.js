@@ -2,11 +2,26 @@ import React from "react";
 import "../Style/Style.css";
 import Fondo from "../Images/gris.PNG"
 import Usuario from "../Images/usuario.png"
+import icono_atras from "../Images/espalda.png";
 
 class InformacionUsuario extends React.Component {
   render() {
     return (
       <div>
+        <header class="bg-primary" id="miinformacion">
+          <div class="bg-primary miinformacion text-white">
+            <h2 class="text-center">Busqueda de usuario</h2>
+          </div>
+          <a href="/inicioDocente" class="navbar-brand ">
+            <img
+              src={icono_atras}
+              alt="icono_atras"
+              class="img-thumbnail iconoAtras ss bg-primary "
+            />
+          </a>
+        </header>
+
+
         <div>
           <img src={Fondo} class="d-block w-100 fondo" alt="..." />
           <img src={Usuario} class="rounded mx-auto d-block aa" alt="..." />

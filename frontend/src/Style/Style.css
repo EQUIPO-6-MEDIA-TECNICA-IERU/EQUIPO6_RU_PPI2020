@@ -94,7 +94,8 @@ width: 150px;
 .iconoAtras{
 width: 30px;
 border: none;
-margin: 5px
+margin: 5px;
+height: 30px;
 }
 
 
@@ -130,6 +131,7 @@ margin: 50px;
 .fondo{
 height: 400px;
 object-fit: cover;
+margin-top: 1px;
 }
 
 .aa{

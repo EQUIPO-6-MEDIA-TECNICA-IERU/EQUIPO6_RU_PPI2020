@@ -13,7 +13,7 @@ class InicioUsuarios extends React.Component {
             <h2 class="text-center">Notificaciones</h2>
             
           </div>
-          <a href="..." class="navbar-brand ">
+          <a href="/inicioEstudiante" class="navbar-brand ">
               <img
                 src={icono_atras}
                 alt="icono_atras"

@@ -7,7 +7,7 @@ class InicioEntidad extends React.Component {
   render() {
     return (
       <div>
-        <a href="..." class="navbar-brand ">
+        <a href="/inicioUsuario" class="navbar-brand ">
               <img
                 src={icono_atras}
                 alt="icono_atras"
@@ -43,7 +43,7 @@ class InicioEntidad extends React.Component {
                     </a>
                 </button>
                 <button type="button" class="btn btn-primary btna">
-                <a href="busquedaUsuario" class="letra">
+                <a href="busquedaUsuario2" class="letra">
                       {" "}
                       Buscar Usuario{" "}
                     </a>

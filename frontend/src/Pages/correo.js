@@ -7,7 +7,7 @@ class correo extends React.Component {
   render() {
     return (
       <div>
-        <a href="..." class="navbar-brand ">
+        <a href="/" class="navbar-brand ">
               <img
                 src={icono_atras}
                 alt="icono_atras"
@@ -35,7 +35,7 @@ class correo extends React.Component {
                     type="button"
                     class="btn btn-primary text-center font-weight-bold boton"
                   >
-                    <a href="contraseña" class="letra">
+                    <a href="/codigo" class="letra">
                       {" "}
                       Aceptar{" "}
                     </a>
@@ -45,7 +45,7 @@ class correo extends React.Component {
                     type="button"
                     class="btn btn-primary text-center font-weight-bold boton"
                   >
-                    <a href="correo" class="letra">
+                    <a href="/" class="letra">
                       {" "}
                       Cancelar{" "}
                     </a>

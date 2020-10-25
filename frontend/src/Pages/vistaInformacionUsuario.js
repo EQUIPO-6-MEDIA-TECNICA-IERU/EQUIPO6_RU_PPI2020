@@ -11,7 +11,7 @@ class VistaInformacionUsuario extends React.Component {
                         <h2 class="text-center">Vista información usuario</h2>
 
                     </div>
-                    <a href="..." class="navbar-brand ">
+                    <a href="/informacionUsuario" class="navbar-brand ">
                         <img
                             src={icono_atras}
                             alt="icono_atras"
