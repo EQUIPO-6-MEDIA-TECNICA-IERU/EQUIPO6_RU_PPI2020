@@ -4,8 +4,8 @@ const mysqlConnection = require('../db/db');
 
 //colocar los middlewares
 
-router.get('/administradores',(req,res)=>{
-    mysqlConnection.query('SELECT * FROM ADMINISTRADOR ',(err,rows,fiels)=>{
+router.get('/usuario',(req,res)=>{
+    mysqlConnection.query('SELECT * FROM USUARIO ',(err,rows,fiels)=>{
     if(!err){
        res.json(rows); 
     }else{

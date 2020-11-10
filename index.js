@@ -8,7 +8,7 @@ const estudiantes = require('./routes/estudiante');
 const docentes = require('./routes/docente');
 const entidades = require('./routes/entidad');
 const generacionalerta = require('./routes/generacionalerta');
-const administrador = require('./routes/administrador')
+const usuario = require('./routes/usuario')
 
 // Ajustess 
 app.set('port', 3000);//puerto único  //firewall
@@ -17,11 +17,11 @@ app.set('port', 3000);//puerto único  //firewall
 app.use(express.json());
 // ajustess
 // defino middleware
-app.use('/api',estudiantes);
-app.use('/api',docentes);
-app.use('/api',entidades);
-app.use('/api',generacionalerta);
-app.use('/api',administrador);
+app.use('/api/estudiantes',estudiantes);
+app.use('/api/docentes',docentes);
+app.use('/api/entidades',entidades);
+app.use('/api/generacionreporte',generacionalerta);
+app.use('/api/usuario',usuario);
 
 //app.use('/api/modulos',modulos);
 //app.use('/api/colegios',colegios);
