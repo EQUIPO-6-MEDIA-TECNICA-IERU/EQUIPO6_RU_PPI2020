@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 // párámetros de conexión
 const mysqlConnection=mysql.createConnection({
-host: '181.133.136.83',
-user: 'mediatecnica',
-password: '123',
-database: 'lab_mediatecnica',
+host: 'bhn4ciftdorshtritp7c-mysql.services.clever-cloud.com',
+user: 'u7wtk4ifdv2odb5o',
+password: '3RBaE8e7JUMPywSu0EoT',
+database: 'bhn4ciftdorshtritp7c',
 multipleStatements:true
 });
 //Establecer la conexión a la bd
