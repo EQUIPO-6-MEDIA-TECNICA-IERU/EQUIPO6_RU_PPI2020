@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 // párámetros de conexión
 const mysqlConnection=mysql.createConnection({
-host: 'bhn4ciftdorshtritp7c-mysql.services.clever-cloud.com',
-user: 'u7wtk4ifdv2odb5o',
-password: '3RBaE8e7JUMPywSu0EoT',
-database: 'bhn4ciftdorshtritp7c',
+host: 'bmcidgbghbtmaicdkurc-mysql.services.clever-cloud.com',
+user: 'ufvizzgdpph3krif',
+password: '4LYxEpnlf7TpnOV6p8MN',
+database: 'bmcidgbghbtmaicdkurc',
 multipleStatements:true
 });
 //Establecer la conexión a la bd
